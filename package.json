@@ -1,6 +1,6 @@
 {
   "name": "flexlm-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Flexlm License File Parser",
   "main": "index.js",
   "scripts": {
