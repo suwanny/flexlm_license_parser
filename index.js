@@ -11,17 +11,17 @@ module.exports = (function(){
         'UPGRADE',
         'PACKAGE',
         'FEATURESET'
-      ],
-      licenseInfo = {
-        vendor: {},
-        server: {use: false},
-        features: [],
-        invalidLines: []
-      };
+      ];
 
   function LicenseFileParser() {}
 
   LicenseFileParser.prototype.parse = function (path, callback){
+    var licenseInfo = {
+      vendor: {},
+      server: {use: false},
+      features: [],
+      invalidLines: []
+    };
     fs.readFile(path, function (err, data){
       var validLines = [], prevLines = [];
       if (err) { return callback(err); }
