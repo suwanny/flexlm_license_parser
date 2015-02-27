@@ -1,0 +1,29 @@
+{
+  "name": "flexlm-parser",
+  "version": "1.0.0",
+  "description": "Simple Flexlm License File Parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "bin": {
+    "flexlmparse": "./bin/flexlmparse"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suwanny/flexlm_license_parser.git"
+  },
+  "keywords": [
+    "flexlm",
+    "license"
+  ],
+  "author": "Soo Hwan Park (suwanny at gmail dot com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suwanny/flexlm_license_parser/issues"
+  },
+  "homepage": "https://github.com/suwanny/flexlm_license_parser",
+  "dependencies": {
+    "lodash": "^3.3.1"
+  }
+}
